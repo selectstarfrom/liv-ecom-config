@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:postgres}:${DB_PORT:5432}/${DB_NAME:order}
+    username: ${DB_USER:postgres}
+    password: ${DB_PASSWORD:}
+
+rabbitmq:
+  host: ${RABBIT_HOST:rabbitmq}

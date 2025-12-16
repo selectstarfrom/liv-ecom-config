@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:postgres}:${DB_PORT:5432}/${DB_NAME:oauth}
+    username: ${DB_USER:postgres}
+    password: ${DB_PASSWORD:}
+
+oauth:
+  jwt:
+    secret: ${APP_JWT_SECRET}
+    expiry: 1800
