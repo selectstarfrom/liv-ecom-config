@@ -17,3 +17,4 @@ logging:
   level:
     com.netflix.discovery: DEBUG
     org.springframework.cloud.netflix.eureka: DEBUG
+app.test: cloud-local

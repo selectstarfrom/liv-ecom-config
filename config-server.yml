@@ -13,3 +13,4 @@ spring:
           search-paths: /
           clone-on-start: true
           force-pull: true
+app.test: cloud
