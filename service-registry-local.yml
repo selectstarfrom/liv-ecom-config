@@ -8,4 +8,4 @@ eureka:
     fetch-registry: false
     register-with-eureka: false
 
-cloud-config-verify: cloud-default
+cloud-config-verify: cloud-local

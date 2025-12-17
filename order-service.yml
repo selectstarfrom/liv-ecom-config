@@ -4,5 +4,10 @@ spring:
     username: ${DB_USER:postgres}
     password: ${DB_PASSWORD:}
 
-rabbitmq:
-  host: ${RABBIT_HOST:rabbitmq}
+  rabbitmq:
+    host: ${RABBIT_HOST:rabbitmq}
+    port: ${RABBIT_PORT:5672}
+    username: ${RABBIT_USER:admin}
+    password: ${RABBIT_PASS:admin123}
+
+cloud-config-verify: cloud-default

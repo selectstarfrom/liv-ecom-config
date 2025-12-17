@@ -9,4 +9,4 @@ eureka:
   client:
     service-url:
       defaultZone: ${EUREKA_URL:http://service-registry:8761/eureka}
-cloud-config-verify: cloud-default
+cloud-config-verify: cloud-local

@@ -12,3 +12,5 @@ spring:
 
 otp:
   expirySeconds: 180
+
+cloud-config-verify: cloud-default

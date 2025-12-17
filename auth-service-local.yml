@@ -8,4 +8,4 @@ oauth:
   jwt:
     secret: ${APP_JWT_SECRET}
     expiry: 1800
-cloud-config-verify: cloud-default
+cloud-config-verify: cloud-local

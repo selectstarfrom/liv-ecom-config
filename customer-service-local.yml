@@ -3,4 +3,4 @@ spring:
     url: jdbc:postgresql://${DB_HOST:postgres}:${DB_PORT:5432}/${DB_NAME:customer}
     username: ${DB_USER:postgres}
     password: ${DB_PASSWORD:}
-cloud-config-verify: cloud-default
+cloud-config-verify: cloud-local
