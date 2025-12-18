@@ -15,4 +15,7 @@ app:
   jwt.secret: ${APP_JWT_SECRET:}
   openapi.dev-url: http://localhost:8080
 
+  frontend:
+    host: ${APP_FRONTEND_HOST:http://localhost:3001}
+
 cloud-config-verify: cloud-local

@@ -4,3 +4,7 @@ spring:
     username: ${DB_USER:postgres}
     password: ${DB_PASSWORD:}
 cloud-config-verify: cloud-local
+
+app:
+  frontend:
+    host: ${APP_FRONTEND_HOST:http://localhost:3001}
