@@ -16,6 +16,6 @@ app:
   openapi.dev-url: http://localhost:8080
 
   frontend:
-    host: ${APP_FRONTEND_HOST:http://localhost:3001}
+    host: ${APP_FRONTEND_HOST:https://noma-nontraitorous-preaccommodatingly.ngrok-free.dev}
 
 cloud-config-verify: cloud-local

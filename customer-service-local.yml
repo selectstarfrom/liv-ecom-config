@@ -7,4 +7,4 @@ cloud-config-verify: cloud-local
 
 app:
   frontend:
-    host: ${APP_FRONTEND_HOST:http://localhost:3001}
+    host: ${APP_FRONTEND_HOST:https://noma-nontraitorous-preaccommodatingly.ngrok-free.dev}
