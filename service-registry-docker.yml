@@ -1,0 +1,16 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: service-registry-new
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+
+cloud-config-verify: cloud-local
+
+
+app:
+  frontend:
+    host: ${APP_FRONTEND_HOST:https://contradistinctive-stacey-taxonomically.ngrok-free.dev}

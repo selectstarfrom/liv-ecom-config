@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:postgres}:${DB_PORT:5432}/${DB_NAME:notifications}
+    username: ${DB_USER:postgres}
+    password: ${DB_PASSWORD:}
+
+  rabbitmq:
+    host: ${RABBIT_HOST:rabbitmq}
+    port: ${RABBIT_PORT:5672}
+    username: ${RABBIT_USER:admin}
+    password: ${RABBIT_PASS:admin123}
+
+notifications:
+  retry:
+    maxAttempts: 5
+
+cloud-config-verify: cloud-local
+
+app:
+  frontend:
+    host: ${APP_FRONTEND_HOST:https://contradistinctive-stacey-taxonomically.ngrok-free.dev}
